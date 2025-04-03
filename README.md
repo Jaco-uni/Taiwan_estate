@@ -1,4 +1,4 @@
-##### **Sviluppo di un Modello di Regressione e Web App per la Predizione dei Prezzi Immobiliari**
+## **Sviluppo di un Modello di Regressione e Web App per la Predizione dei Prezzi Immobiliari**
 ### **Obiettivo**:
 Sviluppare un modello di regressione per predire il prezzo al metro quadro di immobili nella regione di Sindian, Nuova Taipei, Taiwan, utilizzando il Real Estate Valuation Data Set. Successivamente, creare una web app con Streamlit che permetta agli utenti di ottenere una stima del prezzo inserendo:
 • Latitudine 
