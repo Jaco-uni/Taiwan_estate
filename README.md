@@ -1,24 +1,26 @@
 <<<<<<< HEAD
-# Sentiment Analysis Pipeline
+### Sviluppo di un Modello di Regressione e Web App per la Predizione dei Prezzi Immobiliari
+Obiettivo:
+Sviluppare un modello di regressione per predire il prezzo al metro quadro di immobili nella regione di Sindian, Nuova Taipei, Taiwan, utilizzando il Real Estate Valuation Data Set. Successivamente, creare una web app con Streamlit che permetta agli utenti di ottenere una stima del prezzo inserendo:
+• Latitudine 
+• longitudine
+• Età dell’immobile 
+• distanza dalla stazione MRT più vicina 
+• numero di minimarket nelle vicinanze.
 
-This project performs sentiment analysis on tweets using machine learning models. The pipeline includes data loading, preprocessing, model training, evaluation, and result storage in an SQLite database.
+Passaggi eseguiti:
+1. Sviluppo del Modello:
+• Costruito tre modelli di regressione per predire il prezzo al metro quadro basato su latitudine e longitudine.
+ 1. modello, consiste in un modello completo di tutti i parametri
+ 2. modello, consiste in un modello che sfrutta solo latitudine e longitudine
+ 3. modello, consiste in un modello che sfrutta • Età dell’immobile, distanza dalla stazione MRT più vicina, numero di minimarket nelle vicinanze.
 
-## Project Structure
-```
-│── data/                          # Raw and processed data
-│   ├── raw/                       # Original Excel files
-│   ├── processed/                 # Preprocessed data
-│── database/                      # SQLite database and schema
-│── logs/                          # Logs for debugging
-│   ├── pipeline.log               # Log file capturing pipeline execution
-│── notebooks/                     # Jupyter notebooks for analysis
-│── src/                           # Source code
-│   ├── config.py                  # Configuration settings
-│   ├── load_data.py               # Load tweets from Excel
-│   ├── preprocess.py              # Preprocessing functions
-│   ├── make_model.py              # Model training & prediction
-│── scripts/                       # Scripts for execution
-│   ├── run_pipeline.py            # End-to-end execution
-│── requirements.txt               # Dependencies
-│── README.md                      # Project documentation
-```
+2. Per eseguire l'applicazione:
+Per usufruire del servizio è necessario eseguire il file 'run_pipeline.py', per poi eseguire dal terminale il file UI.py utilizzando il comando: 'python -m streamlit run UI.py'
+
+Una volta aperta l'applicazione via web si può scegliere quale modello utilizzare e modificare o manualmente da tastiera o tramite gli appositi tasti i valori dei parametri. 
+
+
+3. Visualizzazione dei Dati:
+Per la visualizzazione dati è stata creata una mappa interattiva dei prezzi originali utilizzando Tableau.
+
