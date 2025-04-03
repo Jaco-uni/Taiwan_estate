@@ -6,8 +6,11 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Paths for raw data (Excel files)
 RAW_DATA_PATH = os.path.join(BASE_DIR, "../data/raw/")
 
+# SQLite Database Path
+DATABASE_PATH = os.path.join(BASE_DIR, "../database/house.db")
+
 # Preprocessed Data Table Name
-PROCESSED_TABLE = "processed_tweets"
+PROCESSED_TABLE = "raw_house"
 
 # Raw Data Table Name
 RAW_TABLE = "raw_house"
@@ -22,5 +25,5 @@ EVALUATION_TABLE = "grid_search_results"
 LOGGING_LEVEL = "INFO"
 
 # Saved models
-MODELS_PATH = "./models/"
+MODELS_PATH = "../models/"
 
