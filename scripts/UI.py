@@ -22,16 +22,6 @@ selectedModel = st.selectbox(
          'Quale modello vorresti utilizzare per la sentiment analysis?',
          ('tutti i parametri', 'Latitudine e longitudine', 'Età dell’immobile, distanza dalla stazione MRT più vicina e numero di minimarket nelle vicinanze'))
 
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #ADD8E6;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 st.title("Calcolo prezzo medio per metro quadro per le case di Taipei")
 st.write("In questo spazio puoi calcolare il prezzo medio per metro quadro di un immobile a Taipei, in base a diversi parametri da te inseriti.")

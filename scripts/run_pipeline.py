@@ -8,7 +8,7 @@ from src.make_model import train_model_completo, train_model_lat_lon, train_mode
 
 
 # Set up logging
-logging.basicConfig(filename='../logs/pipeline.log', level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(filename='./logs/pipeline.log', level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 def main():
     logging.info("Starting RF regression Pipeline...")

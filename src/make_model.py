@@ -10,7 +10,6 @@ import sys
 import pickle # Adds the parent directory to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) # Adds the src directory to sys.path
 from src import config
-import logging
 
 
 #FUNZIONE CARICAMENTO DATI
