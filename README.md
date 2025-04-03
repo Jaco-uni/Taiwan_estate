@@ -1,21 +1,21 @@
 ## **Sviluppo di un Modello di Regressione e Web App per la Predizione dei Prezzi Immobiliari**
 ### **Obiettivo**:
 Sviluppare un modello di regressione per predire il prezzo al metro quadro di immobili nella regione di Sindian, Nuova Taipei, Taiwan, utilizzando il Real Estate Valuation Data Set. Successivamente, creare una web app con Streamlit che permetta agli utenti di ottenere una stima del prezzo inserendo:
-• Latitudine 
-• longitudine
-• Età dell’immobile 
-• distanza dalla stazione MRT più vicina 
-• numero di minimarket nelle vicinanze.
+      • Latitudine 
+      • longitudine
+      • Età dell’immobile 
+      • distanza dalla stazione MRT più vicina 
+      • numero di minimarket nelle vicinanze.
 
 ### Passaggi eseguiti:
 1. **Sviluppo del Modello**:
 • Costruito tre modelli di regressione per predire il prezzo al metro quadro basato su latitudine e longitudine.
- 1) modello,
-    consiste in un modello completo di tutti i parametri
- 2) modello
-    consiste in un modello che sfrutta solo latitudine e longitudine
- 3) modello
-    consiste in un modello che sfrutta • Età dell’immobile, distanza dalla stazione MRT più vicina, numero di minimarket nelle vicinanze.
+      1) modello,
+         consiste in un modello completo di tutti i parametri
+      2) modello
+         consiste in un modello che sfrutta solo latitudine e longitudine
+      3) modello
+         consiste in un modello che sfrutta • Età dell’immobile, distanza dalla stazione MRT più vicina, numero di minimarket nelle vicinanze.
 
 2. **Per eseguire l'applicazione**:
    Per usufruire del servizio è necessario eseguire il file 'run_pipeline.py', per poi eseguire dal terminale il file UI.py utilizzando il comando: 'python -m streamlit run UI.py'
