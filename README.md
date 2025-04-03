@@ -23,4 +23,6 @@ Una volta aperta l'applicazione via web si può scegliere quale modello utilizza
 
 3. Visualizzazione dei Dati:
 Per la visualizzazione dati è stata creata una mappa interattiva dei prezzi originali utilizzando Tableau.
-
+La mappa rappresenta la distribuzione delle case, in relazione alla dimensione che rappresentà l'età dell'immobile e il colore la vicinanza alla stazione MRT più vicina. Nel grafico affianco si è condotta un'analisi più concentrata sulla distribuzione dei punti in funzione dei parametri età della casa e costo della casa.
+Per visulizzare i grafici utilizzare il seguente 
+[link](https://public.tableau.com/shared/7BKQJHYQ5?:display_count=n&:origin=viz_share_link)
